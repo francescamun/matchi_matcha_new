@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+    <a href="index.html"><img src="img/logo.PNG" alt=""></a>
+    <div class="hamburger" onclick="this.classList.toggle('aperto'); document.getElementById('menu-mobile').classList.toggle('aperto')">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="tea.html">TEA</a></li>
+            <li><a href="plant.html">PLANT</a></li>
+            <li><a href="fruit.html">FRUIT</a></li>
+        </ul>
+    </nav>
+    <nav id="menu-mobile">
+        <ul>
+            <li><a href="tea.html">TEA</a></li>
+            <li><a href="plant.html">PLANT</a></li>
+            <li><a href="fruit.html">FRUIT</a></li>
+        </ul>
+    </nav>
+</header>
+    <section class="titolo_pagina_tea">
+        <div>
+            <h2>TEA POWDERS</h2>
+        </div>
+    </section>
+    <section class="sottotitolo">
+        <p>Dalla foglia al silenzio:</p>
+        <p>l'anima del tè asiatico, distillata in polvere</p>
+    </section>
+    <section class="immagine">
+        <div class="carosello">
+            <input type="radio" name="slide" id="s1" checked>
+            <input type="radio" name="slide" id="s2">
+            <input type="radio" name="slide" id="s3">
+
+            <div class="slides">
+                <div class="slide"><img src="img/tea.png" alt="Tea"></div>
+                <div class="slide"><img src="img/tea_1.webp" alt="Fruit"></div>
+                <div class="slide"><img src="img/tea_2.jpg" alt="Plant"></div>
+            </div>
+
+            <label class="freccia prev" for="s3">&#10094;</label>
+            <label class="freccia prev" for="s1">&#10094;</label>
+            <label class="freccia prev" for="s2">&#10094;</label>
+
+            <label class="freccia next" for="s2">&#10095;</label>
+            <label class="freccia next" for="s3">&#10095;</label>
+            <label class="freccia next" for="s1">&#10095;</label>
+
+            <div class="dots">
+                <label for="s1"></label>
+                <label for="s2"></label>
+                <label for="s3"></label>
+            </div>
+        </div>
+    </section>
+    <section class="bottoni_tea">
+        <div>
+            <a href="matcha.html"><p>MATCHA</p></a>
+        </div>
+        <div>
+            <a href="hojicha.html"><p>HOJICHA</p></a>
+        </div>
+    </section>
+    <hr class="separatore_tea">
+    <section class="descrizione_categoria_tea">
+        <div class="descrizione_normale_tea">
+            <p>Ogni polvere racconta un processo di lavorazione unico:</p>
+            <p>il <span style="color: #B9AE90;">Matcha</span> nasce da foglie ombreggiate per preservare la clorofilla;</p>
+            <p> l'<span style="color: #B9AE90;">Hojicha</span> dalla tostatura che ne riduce la caffeina regalando note di nocciola;</p>
+             <p>Scopri le caratteristiche che  rendono ogni varietà un pilastro della cultura orientale.</p>
+        </div>
+    </section>
+    <footer>
+        <p>MATCHI MATCHA</p>
+        <p>@2026| <a href="https://www.abacatania.it/">Accademia di belle arti di Catania</a></p>
+        <p><a href="chi-siamo.html">CHI SIAMO?</a></p>
+    </footer>
+</body>
+</html>

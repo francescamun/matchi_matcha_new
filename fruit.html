@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+    <a href="index.html"><img src="img/logo.PNG" alt=""></a>
+    <div class="hamburger" onclick="this.classList.toggle('aperto'); document.getElementById('menu-mobile').classList.toggle('aperto')">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="tea.html">TEA</a></li>
+            <li><a href="plant.html">PLANT</a></li>
+            <li><a href="fruit.html">FRUIT</a></li>
+        </ul>
+    </nav>
+    <nav id="menu-mobile">
+        <ul>
+            <li><a href="tea.html">TEA</a></li>
+            <li><a href="plant.html">PLANT</a></li>
+            <li><a href="fruit.html">FRUIT</a></li>
+        </ul>
+    </nav>
+</header>
+    <section class="titolo_pagina_fruit">
+        <div>
+            <h2>FRUIT POWDERS</h2>
+        </div>
+    </section>
+    <section class="sottotitolo">
+        <p>Colore, vita e dolcezza:</p>
+        <p>i frutti dell’Asia ridotti alla loro essenza più pura</p>
+    </section>
+    <section class="immagine">
+        <div class="carosello">
+            <input type="radio" name="slide" id="s1" checked>
+            <input type="radio" name="slide" id="s2">
+            <input type="radio" name="slide" id="s3">
+
+            <div class="slides">
+                <div class="slide"><img src="img/fruit.png" alt="Fruit"></div>
+                <div class="slide"><img src="img/fruit_1.webp" alt="Tea"></div>
+                <div class="slide"><img src="img/fruit_2.jpg" alt="Plant"></div>
+            </div>
+
+            <label class="freccia prev" for="s3">&#10094;</label>
+            <label class="freccia prev" for="s1">&#10094;</label>
+            <label class="freccia prev" for="s2">&#10094;</label>
+
+            <label class="freccia next" for="s2">&#10095;</label>
+            <label class="freccia next" for="s3">&#10095;</label>
+            <label class="freccia next" for="s1">&#10095;</label>
+
+            <div class="dots">
+                <label for="s1"></label>
+                <label for="s2"></label>
+                <label for="s3"></label>
+            </div>
+        </div>
+    </section>
+    <section class="bottoni_fruit">
+        <div>
+            <a href="pitaya.html"><p>PITAYA</p></a>
+        </div>
+        <div>
+            <a href="goji.html"><p>GOJI</p></a>
+        </div>
+    </section>
+    <hr class="separatore_fruit">
+    <section class="descrizione_categoria_fruit">
+        <div class="descrizione_normale_fruit">
+            <p>Ogni polvere racchiude un colore e un profilo nutrizionale unici:</p>
+            <p>la <span style="color: #EEA0A7;">Pitaya</span> nasce dalla polpa del frutto del drago, essiccata a freddo per preservare le sue betacianine dal rosa intenso;</p>
+            <p>il <span style="color: #EEA0A7;">Goji</span> deriva dalle bacche essiccate all'ombra delle pianure di Ningxia, concentrando zeaxantina e polisaccaridi dal caldo arancio.</p>
+             <p>Scopri le caratteristiche che rendono ogni varietà un simbolo della vitalità orientale.</p>
+        </div>
+    
+    </section>
+    <footer>
+        <p>MATCHI MATCHA</p>
+        <p>@2026| <a href="https://www.abacatania.it/">Accademia di belle arti di Catania</a></p>
+        <p><a href="chi-siamo.html">CHI SIAMO?</a></p>
+    </footer>
+</body>
+</html>
