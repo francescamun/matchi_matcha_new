@@ -1,0 +1,23 @@
+.titolo_pagina div, .bottoni div {
+    background-color: #F0DDA0 !important;
+}
+
+.separatore {
+    border-top: 7px solid #F0DDA0 !important;
+}
+
+.descrizione_centrale h3 {
+    color: #F0DDA0 !important;
+}
+
+.storia {
+    background-color: #F0DDA0 !important;
+}
+
+.benefici h3 {
+    color: #F0DDA0;
+}
+
+.descrizione_centrale img {
+    border-radius: 24px;
+}
